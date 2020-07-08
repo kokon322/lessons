@@ -96,3 +96,37 @@ let bag = {
                 have: ["koga", "ruchki"],
                      gabarytu: {height: 1, weight: 1}};
 console.log(home, vodiy,toy, table,bag); */
+//- звернутися в відповідну ячейку масиву і відповідний параметр об'єкта і вивести в консольх наступне
+//- статус Андрія
+//- статус Максима
+//- ім'я передостаннього об'єкту
+//- ім'я третього об'єкта
+//- вік Олега
+//- вік Олі
+//- вік + ім'я 5го об'єкта
+//- вік + сатус АнниДан массив:
+
+/* let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+];
+console.log(users[7].status);
+console.log(users[4].status);
+console.log(users[10].status);
+console.log(users[9].name);
+console.log(users[2].name);
+console.log(users[6].age);
+console.log(users[6].age);
+console.log(users[4].name+ users[4].age);
+let stat = users[5].status;
+let age = users[5].age;
+console.log(stat,age); */
