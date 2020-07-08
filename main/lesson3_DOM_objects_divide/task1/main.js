@@ -130,3 +130,21 @@ console.log(users[4].name+ users[4].age);
 let stat = users[5].status;
 let age = users[5].age;
 console.log(stat,age); */
+// let content = document.getElementById('content');
+// console.log(content.textContent);
+// let rules = document.getElementById("rules");
+// console.log(rules.textContent);
+// content.innerText = "Вася";
+// console.log(content.textContent);
+// rules.innerText = "Пупкин";
+// console.log(rules.textContent);
+
+// let FcRules = document.getElementsByClassName("fc_rules");
+// for(let i = 0; i<FcRules.length;i++){
+//     FcRules[i].style.backgroundColor = "red";
+//     FcRules[i].style.color = "blue";
+// }
+// console.log(rules)
+// for(let i = 0; i<FcRules.length;i++){
+//     FcRules[i].style.color = "red";
+// }
