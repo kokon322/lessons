@@ -59,3 +59,40 @@ let mas = [
                             car3 = "Lexus",
                                 car4 = "BMW",];
 console.log(mas); */
+//-- створити об'єкт (не меньше 5ти властивостей) який описує, одна з властивостей обов'язково повинна бути об'єктом,ще одна - масивом
+//- будинок
+//- водій
+//- іграшку
+//- стіл
+//- сумка
+/* let home = {
+        name :"myHome",
+            floor : 2,
+                roomKitchen: {m2 : 18, height :3, window : 1},
+                    room : ["kitchen", "room1", "room2", "bathroom", "toilet"], 
+                        garage : true};
+let vodiy = {
+        name : "Vasa",
+            work : 10,
+                fameli : ["wife", "son"],
+                    car : {name : "Subaru", age : 10},
+                        drink : true};
+let toy = {
+        name: "igrashka",
+            age: 12,
+                coutry: "SSSR",
+                    have : ["whils", "corpus"],
+                        gabarytu: {height: 1, weight: 5}};
+let table = {
+        age: 12,
+            price: 1200,
+                valuta: "dollar",
+                    have: ["nogki", "stoleshna"],
+                        gabarytu: {height: 2, weight: 12}};
+let bag = {
+    age: 12,
+         price: 1200,
+            valuta: "dollar", 
+                have: ["koga", "ruchki"],
+                     gabarytu: {height: 1, weight: 1}};
+console.log(home, vodiy,toy, table,bag); */
