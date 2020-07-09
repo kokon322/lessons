@@ -148,3 +148,64 @@ console.log(stat,age); */
 // for(let i = 0; i<FcRules.length;i++){
 //     FcRules[i].style.color = "red";
 // }
+// let mainHeadr = document.getElementById("main_header");
+//     mainHeadr.style.color = "red";
+
+// let ul = document.getElementsByTagName("ul");
+//     for(let i = 0; i<ul.length;i++){
+//         ul[i].style.width = "400px";
+// };
+
+// let LinkList = document.getElementsByClassName("linkList");
+// console.log(LinkList);
+// for(let i = 0; i<LinkList.length;i++){
+//     LinkList[i].style.width = "50%";
+// }
+
+// console.log(LinkList[1].textContent);
+
+// let li = document.getElementsByTagName("li");
+// for(let i = 0;i<li.length;i++){
+//     li[i].style.backgroundColor = "silver";
+// }
+
+// let allA = document.getElementsByTagName("a");
+// for (let i = 0;i<allA.length;i++){
+//     allA[i].classList.add("anchor");
+// }   
+// console.log(allA)
+
+// for(let i =0;i<allA.length;i++){
+//     if(allA[i].textContent === "link3"){
+//         allA[i].style.fontSize = "40px";
+//     }
+// }
+
+
+// for (let i = 0;i<allA.length;i++){
+//     allA[i].classList.add("anchor");
+// }   
+
+// let subHeader = document.getElementsByClassName("sub-header");
+// let color1 = prompt("Введите цвет");
+// for(let i = 0;i<subHeader.length;i++){
+//     subHeader[i].style.backgroundColor= color1;
+// }
+// for(let i = 0;i<subHeader.length;i++){
+//     if(subHeader[i].textContent === "content 2 segment"){
+//         subHeader[i].style.backgroundColor= color1;
+//     }
+// }
+// let allP = document.getElementsByTagName("p");
+// for(let i = 0;i<allP.length;i++){
+//     allP[i].style.padding = "100px";
+// }
+// let content1 = document.getElementsByClassName("content_1");
+// let scan = prompt();
+// for(let i =0;i<content1.length;i++){
+//     content1[i].innerHTML = scan;
+// }
+// let text2 = document.getElementsByClassName("text2");
+// for(let i = 0;i<text2.length;i++){
+//     text2[i].innerHTML = "asfasgas";
+// }
