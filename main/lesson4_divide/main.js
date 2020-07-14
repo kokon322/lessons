@@ -155,3 +155,32 @@
 
 // console.log(summa([1,2,3,4],[2,3,4,5]))
 
+//*** приймає масив та число "i", 
+//та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
+// function masiv(arr, i){
+//     let bofer = arr[i];
+//     arr[i] = arr[i+1];
+//     arr[i+1] = bofer;
+//     return arr;
+// }
+
+// console.log(masiv([3,5,7,9], 2));
+
+// *** створити функцію яка буде переносити елементи з значенням 0
+//  у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
+// Двожина масиву від 2 до 100
+// Приклад
+// [1,0,6,0,3] => [1,6,3,0,0]
+// [0,1,2,3,4] => [1,2,3,4,0]
+// [0,0,1,0]   => [1,0,0,0]
+
+// function masZero(array){
+//     let zero = [];
+//     let numbers = [];
+//     for(let i =0;i< array.length;i++){
+//         array[i] === 0 ? zero.push(array[i]):
+//         numbers.push(array[i]);
+//     }return numbers.concat(zero);
+// }
+
+// console.log(masZero([0,0,1,0]))
