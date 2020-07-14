@@ -66,3 +66,73 @@
 // }
 // console.log(Bigest([36,12,25,,12,,12,9]))
 //створити функцію яка повертає найменьше число з масиву
+// function minMas(array = []){
+//     minimumMas = array [0];
+//     for (let i = 0;i<array.length;i++){
+//         if(array[i]<minimumMas){
+//             minimumMas = array[i];
+//         }
+//     }return minimumMas;
+// }
+
+// console.log(minMas([1,32,,55,-1,2,31,]))
+//створити функцію яка приймає масив чисел 
+//та складає значення елементів масиву та повертає його.
+// function masPlus (arr = []){
+//     summaMas = 0;
+//     for(let i =0;i<arr.length;i++){
+//         summaMas += arr[i];
+//     }
+//     return summaMas;
+// }
+
+// console.log(masPlus([25,25,25]))
+//створити функцію яка приймає масив чисел 
+//та повертає середнє арифметичне його значень.
+// function middleMas(arr = []){
+//     let sumOfMas = 0;
+//     let middle = arr.length;
+//     for(let i =0; i< arr.length;i++){
+//         sumOfMas += arr[i];
+//     }
+//     return sumOfMas/middle;
+// }
+
+// console.log(middleMas([35,12,1,5]))
+//- Створити функцію яка приймає масив будь яких объектів, 
+//та повертає значення кількості об'єктів в масиві
+// function masivObject(arr = []){
+//     let count = 0;
+//     for(let i =0;i<arr.length; i++){
+//         if(typeof arr[i] === "object"){
+//             count++;
+//         }
+//     }return count;
+// }
+
+// let vasa = masivObject([12,241,"sfasf",true,{name: "vasa",age: 25},"asfasf",])
+// console.log(vasa)
+
+//Створити функцію яка приймає масив будь яких объектів, 
+//та повертає загальн кількість полів в них
+// function Pola(arr = []){
+//    let count = 0;
+//    for(let i =0;i<arr.length;i++){
+//        if(typeof arr[i] === "object" && Array.isArray(arr[i]) === false){
+//            count += Object.keys(arr[i]).length;
+//        }
+//    }return count;
+// }
+// let vasa = Pola([
+//     { id: 1, name: "vasya", age: 31, status: false },
+//     { id: 2, name: "petya", age: 30, status: true },
+//     { id: 3, name: "kolya", age: 29, status: true },
+//     { id: 4, name: "olya", age: 28, status: false },
+//     55,
+//     12,
+//     "skdhgksd",
+//     [333, 56, "jgjgj"],
+//     { id: 4, name: "olya" },
+// ]);
+//  console.log(vasa);
+
