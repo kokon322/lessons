@@ -184,3 +184,22 @@
 // }
 
 // console.log(masZero([0,0,1,0]))
+// Створити функцію яка :
+// - Додає в боді блок з текстом "Hello owu"
+// function addDiv(message){
+//     let text1 = document.createElement("div");
+//     text1.innerText = message || "Hello owu";
+//     document.body.appendChild(text1)
+// }
+// addDiv();
+
+// - Додає в боді елемент з текстом . 
+// Тип елементу та текст отримати через аргументи
+// function addTagText(message , tag){
+//     let text = document.createElement(tag);
+//     text.innerText = message;
+//     document.body.appendChild(text);
+// }
+// addTagText("Hard...", "p");
+//Завдання з автомобілями мене просто поставило на коліна... тому його пропустив.
+
