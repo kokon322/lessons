@@ -146,7 +146,7 @@
 // console.log(car);
 
 // - Створити функцію конструктор яка дозволяє створювати об'єкти car
-//, з властивостями модель, виробник,рік випуску, максимальна швидкість, об'єм двигуна.
+// , з властивостями модель, виробник,рік випуску, максимальна швидкість, об'єм двигуна.
 // додати в об'єкт функції:
 // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
 // -- info () - яка виводить всю інформацію про автомобіль
@@ -263,3 +263,45 @@
 //         console.log(`Саме попелюшка з ім'ям  ${array[i].name} повинна бути з принцом`);
 //     }
 // }
+
+// -створити функцію конструктор попелюшка з полями ім'я, вік, розмір ноги
+// --Створити 10 попелюшок , покласти їх в масив
+// --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік,
+//  туфелька яку він знайшов, та функцію "пошук попелюшки"
+// -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
+
+// function Popelushca1(name, age, footSize){
+//     this.name = name;
+//     this.age = age;
+//     this.footSize = footSize;
+// }
+
+// const ira = new Popelushca1('Ira',25,35);
+// const olga = new Popelushca1('Olga',26,36);
+// const vika = new Popelushca1('Vika',27,34);
+// const larisa = new Popelushca1('Larisa',28,37);
+// const marina = new Popelushca1('Marina',26,38);
+// const galina = new Popelushca1('Galina',30,39);
+// const elena = new Popelushca1('Elena',31,40);
+// const lilia = new Popelushca1('Lilia',32,41);
+// const roksoliana = new Popelushca1('Roksoliana',19,42);
+// const valentina = new Popelushca1('Valentina',18,43);
+
+// const array = [ira, olga, vika, larisa,marina,galina,elena,lilia,roksoliana,valentina];
+
+// function Prince(name, age, sizeFoundSlipper){
+//     this.name = name;
+//     this.age = age;
+//     this.sizeFoundSlipper = sizeFoundSlipper;
+
+//     this.foundPopelushka = function (array){
+//         for(let i = 0;i<array.length;i++){
+//             if(array[i].footSize === this.sizeFoundSlipper){
+//                 console.log(`Саме попелюшка з ім'ям  ${array[i].name} повинна бути з принцом`);
+//             }
+//         }
+//     }
+// }
+
+// const igor = new Prince('Igor',28,38);
+// igor.foundPopelushka(array);
