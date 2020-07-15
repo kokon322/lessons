@@ -230,3 +230,36 @@
 // console.log(subaru);
 // subaru.info();
 
+// -створити класс попелюшка з полями ім'я, вік, розмір ноги
+// --Створити 10 попелюшок , покласти їх в масив
+// --Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+// -- за допоиоги циклу знайти яка попелюшка повинна бути з принцом
+
+// class Popelushca{
+//     constructor(name, age, footSize){
+//         this.name = name;
+//         this.age = age;
+//         this.footSize = footSize;
+//     }
+// }
+
+// const victorPrince = {name:'Victor', age: 25, sizeFoundSlipper: 38};
+
+// const ira = new Popelushca('Ira',25,35);
+// const olga = new Popelushca('Olga',26,36);
+// const vika = new Popelushca('Vika',27,34);
+// const larisa = new Popelushca('Larisa',28,37);
+// const marina = new Popelushca('Marina',29,38);
+// const galina = new Popelushca('Galina',30,39);
+// const elena = new Popelushca('Elena',31,40);
+// const lilia = new Popelushca('Lilia',32,41);
+// const roksoliana = new Popelushca('Roksoliana',19,42);
+// const valentina = new Popelushca('Valentina',18,43);
+
+// const array = [ira, olga, vika, larisa,marina,galina,elena,lilia,roksoliana,valentina];
+
+// for(let i =0;i<array.length;i++){
+//     if(array[i].footSize === victorPrince.sizeFoundSlipper){
+//         console.log(`Саме попелюшка з ім'ям  ${array[i].name} повинна бути з принцом`);
+//     }
+// }
