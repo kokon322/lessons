@@ -187,6 +187,46 @@
 
 // console.log(subaru);
 
+// - Створити клас який дозволяє створювати об'єкти car, 
+// з властивостями модель, виробник, рік випуску, максимальна швидкість,
+//  об'єм двигуна. додати в об'єкт функції:
+// -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
+// -- info () - яка виводить всю інформацію про автомобіль
+// -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
+// -- changeYear (newValue) - змінює рік випуску на значення newValue
+// -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 
+// class Car{
+//     constructor(model, manufactori, year, maxSpeed, engine){
+//         this.model = model;
+//         this.manufactori = manufactori;
+//         this.year = year;
+//         this.maxSpeed = maxSpeed;
+//         this.engine = engine;
+        
+//         this.drive = function(){
+//             console.log( 'Їдумо зі швидкістю ${} км на годину');
+//         }
+//         this.info = function(){
+//             console.log(this.model, this.manufactori, this.year, this.maxSpeed, this.engine, this.driver);
+//         }
+//         this.increaseMaxSpeed = function(newSpeed){
+//             this.maxSpeed = newSpeed;
+//         }
+//         this.changeYear = function(newValue){
+//             this.year = newValue;
+//         }
+//         this.addDriver = function(driver){
+//             this.driver = driver;
+//         }
+//     }
+// }
 
+// let subaru = new Car('forester','subaru',2008,180,2.5);
+// console.log(subaru);
+// subaru.increaseMaxSpeed(200);
+// subaru.changeYear(2010);
+// subaru.addDriver('Igor');
+// console.log(subaru);
+// subaru.info();
 
