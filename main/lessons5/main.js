@@ -116,39 +116,77 @@
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 
 
-let car = {
-    model: 'outback',
-    manufactured: 'subaru',
-    year: 2017,
-    maxSpeed: 200,
-    engine: 2.5,
-    drive: function () {
-        console.log(`їдемо зі швидкістю ${this.maxSpeed} км на годину`);
-    },
-    info: function () {
-        console.log(this.model,this.manufactured,this.year,this.maxSpeed,this.engine);
-    },
-    increaseMaxSpeed: function (newSpeed) {
-         this.maxSpeed = newSpeed;
-    },
-    changeYear: function (newValue) {
-        this.year = newValue;
-    },
-    addDriver: function (driver) {
-        car.driver = driver;
-    }
-}
+// let car = {
+//     model: 'outback',
+//     manufactured: 'subaru',
+//     year: 2017,
+//     maxSpeed: 200,
+//     engine: 2.5,
+//     drive: function () {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed} км на годину`);
+//     },
+//     info: function () {
+//         console.log(this.model,this.manufactured,this.year,this.maxSpeed,this.engine);
+//     },
+//     increaseMaxSpeed: function (newSpeed) {
+//          this.maxSpeed = newSpeed;
+//     },
+//     changeYear: function (newValue) {
+//         this.year = newValue;
+//     },
+//     addDriver: function (driver) {
+//         car.driver = driver;
+//     }
+// }
 
-let vasa = {name:'vasa',age:18};
+// let vasa = {name:'vasa',age:18};
 
-car.addDriver(vasa);
+// car.addDriver(vasa);
 
-console.log(car);
+// console.log(car);
 
-// - Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник,
-//  рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
+// - Створити функцію конструктор яка дозволяє створювати об'єкти car
+//, з властивостями модель, виробник,рік випуску, максимальна швидкість, об'єм двигуна.
+// додати в об'єкт функції:
 // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
 // -- info () - яка виводить всю інформацію про автомобіль
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
+// let subaru = new Car('outback','subaru',2017,200,2.5);
+
+// const Igor = {firstName:'Igor', secondName:'Chernuy', age:28};
+
+// function Car(model, manufactured, year, maxSpeed, engine){
+//     this.model = model;
+//     this.manufactured = manufactured;
+//     this.year = year;
+//     this.maxSpeed = maxSpeed;
+//     this.engine = engine;
+//     this.drive = function (){
+//         console.log(`Їдимо зі швидкістю ${this.maxSpeed} км на годину`)
+//     }
+//     this.info = function(){
+//         console.log(this.model,this.manufactured,this.year,this.maxSpeed,this.engine,this.driver)
+//     }
+//     this.increaseMaxSpeed = function(newSpeed){
+//         this.maxSpeed = newSpeed;
+//     }
+//     this.changeYear = function (newValue){
+//         this.year = newValue;
+//     }
+//     this.addDriver = function (driver){
+//         this.driver = driver;
+//     }
+// }
+// console.log(subaru);
+
+// subaru.increaseMaxSpeed(250);
+// subaru.addDriver(Igor);
+// subaru.changeYear(2020);
+
+// console.log(subaru);
+
+
+
+
