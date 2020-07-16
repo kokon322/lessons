@@ -202,11 +202,12 @@
 // }
 // addTagText("Hard...", "p");
 //Завдання з автомобілями мене просто поставило на коліна... тому його пропустив.
+
+
 // функція приймає 2 масиви з рівною кількістю об'єктів 
 // та з'єднює в один об'єкт користувача та місто з відповідними "id"
 //  та "user_id",
-// та повертає масив цих з'єднаних об'єктів.
-// з цим теж кака...
+
 // let usersWithId = [
 //     {id: 1, name: 'vasya', age: 31, status: false},
 //     {id: 2, name: 'petya', age: 30, status: true},
@@ -218,18 +219,17 @@
 //     {user_id: 3, country: 'USA', city: 'Portland'},
 //     {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
 //     {user_id: 2, country: 'Poland', city: 'Krakow'},
-//     {user_id: 4, country: 'USA', city: 'Miami'},
+//     {user_id: 4, country: 'UAR', city: 'Miami'},
 // ];
 
-
-// function addCity(array, array1) {
-//     let masResult = [];
-//     for(let i =0;i<array;i++){
-//         for (let j =0;j<array1;j++){
-//             if(array[i].id === array1[j].user_id){
-//                masResult.push(array[i],array1[j])
+// function Users(array,arrayid){
+//     for(let i = 0; i<array.length;i++){
+//         for(let j = 0;j<arrayid.length;j++){
+//             if(array[i].id === arrayid[j].user_id){
+//                 array[i].addres = arrayid[j].country;
 //             }
 //         }
-//     }return masResult;
+//     }return console.log(array)
 // }
-// console.log(addCity(usersWithId,citiesWithId))
+
+// Users(usersWithId,citiesWithId);
