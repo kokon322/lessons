@@ -84,3 +84,22 @@ let users = [ {name: 'vasya', age: 31, status: false},
 
 // users.sort((a,b)=> b.name.length - a.name.length)
 // console.log(users);
+
+// - пройтись по ньому та додати кожному юзеру поле id - 
+// яке характеризує унікальний індентифікатор (По якому принципу його створювати - ваше рішення), 
+// та зберегти це в новий масив (первинний масив залишиться без змін)
+// let mas = [];
+// for(let i =0; i<users.length;i++){
+//     mas.push(users[i]);
+// }
+// console.log(mas);
+
+// for(let i = 0;i<mas.length;i++){
+//     mas[i].id = i + 1;
+// }
+// - відсортувати його за індентифікатором
+// mas.sort((a,b)=> b.id - a.id );
+
+// console.log(mas);
+
+//=============КЛАССНАЯ РАБОТА=================
