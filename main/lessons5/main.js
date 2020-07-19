@@ -135,7 +135,7 @@
 //         this.year = newValue;
 //     },
 //     addDriver: function (driver) {
-//         car.driver = driver;
+//         this.car.driver = driver;
 //     }
 // }
 
