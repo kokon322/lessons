@@ -281,3 +281,62 @@ let usersWithAddress = [
 // let home = usersWithAddress.filter(value => !(value.address.number%2));
 // console.log(home);
 
+// ===========================
+// ======ДОПОЛНИТЕЛЬНО========
+// ===========================
+
+// Створити обєкт автомобіля з полями:
+// Марка автомобля, потужність двигуна, власник, ціна, рік випуску.
+// Власник автомобіля теж має бути обєкт, у якого є поля
+// Імя, вік, стаж водіння.
+// Створити не менше 7 та не більше 20 машинок.
+// Зробили половину автопарку ремонт мотору, що збільшить потужність автомобілів на 10% 
+// (переприсвоєння змінної потужності).
+// На відремонтовані автомобілі найняти нових водіїв (переприсвоїти змінну водій).
+// Для початку вкладіть всі наші створені автомобілі в масив cars.
+// Далі необхідно обрати кожну другу машинку (цикл з кроком в 2), 
+// та робити їй підвищення потужності двигуна на 10% та ціну на 5%
+// Після того зробити перевірку досвіду ВСІХ наших водіїв.
+
+// Якщо досвід водія менший за 5 років, але його вік більший за 25, 
+// то необідно відправити його на курси підвищення кваліфікації, що збільшить йому досвід на 1 рік.
+// Також спробуйте порахувати суму, яку потрібно потратити для покупки всіх цих авто в циклі
+
+// let subaru = {producer: 'subaru', enginePower: 178, 
+//     owner: {name: 'Igor', age:28,experience: 10}, price: 41500, year: 2017};
+// let toyota = {producer: 'toyota', enginePower: 200, 
+//     owner: {name: 'Dima', age:45,experience:4}, price: 60500, year: 2019};
+// let mitsubisi = {producer: 'mitsubisi', enginePower: 140,
+//      owner: {name: 'Yevgen', age:32,experience: 12}, price: 25300, year: 2020};
+// let ford = {producer: 'ford', enginePower: 250,
+//      owner: {name: 'Sasha', age:49,experience: 23}, price: 42000, year: 2016};
+// let jeep = {producer: 'jeep', enginePower: 200, 
+//     owner: {name: 'Sasha', age:29,experience: 11}, price: 6500, year: 2006};
+// let dodge = {producer: 'dodge', enginePower: 350,
+//      owner: {name: 'Kostya', age:27,experience: 8}, price: 32000, year: 2015};
+// let bmw = {producer: 'bmw', enginePower: 350,
+//      owner: {name: 'Sergey', age:49,experience: 20}, price: 22000, year: 2014};
+
+// let cars = [subaru, toyota, mitsubisi, ford, jeep, dodge, bmw];
+
+// for(let i = 0; i<cars.length;i+=2){
+//     cars[i].enginePower += (cars[i].enginePower *= 0.1);
+//     cars[i].price += (cars[i].price *= 0.05);
+//   };
+// // console.log(cars);
+
+// for(let i = 0;i<cars.length;i++){
+//     if(cars[i].owner.experience<5 && cars[i].owner.age){
+//         cars[i].owner.experience++;
+//     }
+// };
+// console.log(cars);
+// let prices = 0;
+// for(let i = 0;i<cars.length;i++){
+//     prices += cars[i].price;
+// }
+
+// for( car of cars){
+//     prices += car.price;
+// }
+// console.log(prices);
