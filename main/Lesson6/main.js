@@ -355,24 +355,24 @@
 // Answer: MinIndex = 3, MaxIndex = 6.
 // let mass = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14];
 
-let mas = [12,3,9,8,2,8,2,9,1,3,2,3,6,2,48,1,[2,3,5],8,1,14,6,1,8];
+// let mas = [12,3,9,8,2,8,2,9,1,3,2,3,6,2,48,1,[2,3,5],8,1,14,6,1,8];
 
-function maxMin(mass,Key){
-    let result = mass.flat(7);
-for(let i =0; i<result.length;i++){
+// function maxMin(mass,Key){
+//     let result = mass.flat(7);
+// for(let i =0; i<result.length;i++){
     
-    if(result[i] === Key){
-        console.log(` min index of ${Key} ${i}`);
-        break;
-    }
-    }
+//     if(result[i] === Key){
+//         console.log(` min index of ${Key} ${i}`);
+//         break;
+//     }
+//     }
 
-for(let i = result.length; i>0 ;i--){
-    if(result[i] === Key){
-        console.log(`max index of ${Key} ${i}`);
-        break;
-    }
-}
-};
+// for(let i = result.length; i>0 ;i--){
+//     if(result[i] === Key){
+//         console.log(`max index of ${Key} ${i}`);
+//         break;
+//     }
+// }
+// };
 
-maxMin(mas,3);
+// maxMin(mas,3);
