@@ -186,11 +186,50 @@
 // кинути алерт з попередженням.
 // Перевірку робити при натисканні на кнопку
 
+// let fuckingMas = ['сука','козел','урод','Имбицил'];
+// let div = document.getElementById('text');
+// let input = document.createElement('input');
+// let button = document.createElement('button');
+// button.innerText = 'click';
+// div.appendChild(input);
+// div.appendChild(button);
+
+// button.onclick = ()=>{
+//     for(let i =0;i<fuckingMas.length;i++){
+//         if(input.value.toLocaleLowerCase() === fuckingMas[i].toLocaleLowerCase())
+//             alert('Не матюкайся');
+//       }
+// };
 
 
 // -- создать скрипт, который берет считывает на странице (rules.html) 
 // текст и делает сбоку меню-оглавление по всем заголовкам которые есть в тексте.
 // При клике на пункт оглавления вы должны отправляться к этому пункту в тексте
+
+// let divText = document.getElementById('text');
+// let arrH2 = document.getElementsByTagName('h2');
+// let wrap = document.getElementById('wrap');
+// let ul = document.createElement('ul');
+
+
+
+// for(let i =0;i<arrH2.length;i++){
+//     let li = document.createElement('li');
+//     let a = document.createElement('a');
+//     let yakor = 'yakor'+i;
+//     a.href = '#' + yakor;
+//     arrH2[i].setAttribute('id',yakor);
+//     a.innerText = arrH2[i].innerText;
+//     li.appendChild(a);
+//     ul.appendChild(li);
+// }
+// divText.appendChild(ul);
+
+// divText.style.widthwidth = '30%';
+// wrap.style.width = '70%';
+// divText.style.float = 'left';
+// wrap.style.float = 'left';
+
 
 // -- взять массив пользователей
 // let usersWithAddress = [
