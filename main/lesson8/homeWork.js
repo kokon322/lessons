@@ -2,6 +2,7 @@
 // В неё вводится текст.
 // Сделайте так, чтобы после захода на эту страницу через некоторое время, 
 // введенный текст остался в textarea.
+
 // let textArea = document.getElementById('textarea');
 // textArea.value = localStorage.getItem('item');
 // textArea.oninput = ()=>{
@@ -14,6 +15,25 @@
 // Сделайте так, чтобы при следующем заходе на страницу введенные им ранее данные стояли на 
 // своих местах.
 // Сделайте ваш скрипт как можно более универсальным.
+
+// let form = document.getElementById('form1');
+// form.inputText.value = localStorage.getItem('item');
+// form.inputNumber.value = localStorage.getItem('item1');
+// form.textarea.value = localStorage.getItem('item2');
+// form.checkbox.checked = localStorage.getItem('item3');
+// form.radio.checked = localStorage.getItem('item4');
+// form.selector.value = localStorage.getItem('item5');
+
+// form.oninput = ()=>{
+//     localStorage.setItem('item',form.inputText.value);
+//     localStorage.setItem('item1',form.inputNumber.value);
+//     localStorage.setItem('item2',form.textarea.value);
+//     localStorage.setItem('item3',form.checkbox.checked);
+//     localStorage.setItem('item4',form.radio.checked);
+//     localStorage.setItem('item5',form.selector.value);
+
+// };
+
 
 // -Дан текстареа. В него можно ввести данные, нажать кнопку "сохранить" и они "фикисруются" 
 // (в хранилище), затем поредактировать их, затем еще поредактировать и возможно еще.....
