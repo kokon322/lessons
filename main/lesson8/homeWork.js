@@ -31,9 +31,7 @@
 //     localStorage.setItem('item3',form.checkbox.checked);
 //     localStorage.setItem('item4',form.radio.checked);
 //     localStorage.setItem('item5',form.selector.value);
-
 // };
-
 
 // -Дан текстареа. В него можно ввести данные, нажать кнопку "сохранить" и они "фикисруются" 
 // (в хранилище), затем поредактировать их, затем еще поредактировать и возможно еще.....
