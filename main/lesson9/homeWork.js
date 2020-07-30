@@ -14,6 +14,16 @@
 // Якщо ж все ок, то ви маєте прожити свій звичайний день.
 // Кожна подія має бути з рандомною (не по зростанню) затримкою.
 
+// Значить так. #task 
+// Необхіжно реалізувати друкарську машинку.
+// У вас є інпут. Ви в нього ввожите якусь слово і тицькаєте кнопку "друкувати".
+
+// Після того як ви тикнули кнопку вам необхідно запустити функцію яка буде 
+// друкувтаи на строніці то, шо ви ввели по одній букві з рандомною 
+// затримкою від 0.1 до 0.5 секунд. 
+// Тим самим симулюючи друкування цього тексту реальною людиною.
+// НА КОЖНУ БУКВА РІЗНА ЗАТРИМКА !
+
 // *****************************Данна реалізація колбеками) а саме колбекХелом).***********************
 
 // function myDay(dayStart, cb){
@@ -124,4 +134,68 @@
     
 // });
 
-// ****************************Данна реалізаця промісами**************************
+// ****************************Данна задача реалізована промісами**************************
+
+// function myDay(startDay){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             startDay ? resolve('**BRRRRRR dZin**'):
+//             reject('You day is not started');
+//         },1000);
+//     }
+// )};
+
+// function breakfest(isBreakfast){
+//     return new Promise ((resolve, reject)=>{
+//         setTimeout(()=>{
+//             isBreakfast ? resolve('Umm delicious breakfeast'):
+//             reject('Sorry you stay hangry');
+//         },2000);
+//     });
+// };
+
+
+// function goToCar(isCarEngineOk){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             isCarEngineOk ? resolve('Engine is ok, go to work'):
+//             reject('Engine is broken');
+//         },1000);
+//     });
+// };
+
+// function goToGasStation(isHaveMoney){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             isHaveMoney ? resolve('Refuel the car'):
+//             reject('No money no fuel');
+//         },3000);
+//     });
+// };
+
+// function atWork(isGoodWork){
+//     return new Promise ((resolve,reject)=>{
+//         setTimeout(()=>{
+//             isGoodWork ? resolve('Good job man'):
+//             reject('Bad job man');
+//         },3500);
+//     });
+// };
+
+// myDay(true).then(value => {
+//     console.log(value);
+//     return breakfest(true);
+// }).then(value=>{
+//     console.log(value)
+//     return goToCar(true)
+// }).then(value=>{
+//     console.log(value)
+//     return goToGasStation(false)
+// }).then(value=>{
+//     console.log(value)
+//     return atWork(true)
+// }).then(value=>{
+//     console.log(value)
+// }).catch(reject =>{
+//     console.error(reject)
+// });
